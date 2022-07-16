@@ -33,5 +33,5 @@ export const UserContextProvider = ({ children }) => {
     <UserContext.Provider value={value}> {children} </UserContext.Provider>
   );
 };
-
 export default UserContext;
+ 
